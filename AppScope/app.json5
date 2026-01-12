@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.howtoaddrotatingverification",
+    "bundleName": "com.hmosdemos.wearable.how_to_add_rotating_verifier",
     "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",

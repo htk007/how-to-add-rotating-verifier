@@ -8,6 +8,8 @@
   <img src="screenshots/gifVerifier.gif" width="24%" >
   <img src="screenshots/ss0clabop.png" width="24%" >
   <img src="screenshots/ss1clabop.png" width="24%" >
+  
+ 
 </div>
 
 # Use Cases
@@ -21,7 +23,7 @@
 ## Stack
 
 - **Languages**: ArkTS, ArkUI
-- **Frameworks**: HarmonyOS 5.1.0(18)
+- **Frameworks**: HarmonyOS 6.0.0
 - **Tools**: DevEco Studio Vers 6.0.0,
 - **Libraries**: @ohos.display, @kit.ArkUI
 
@@ -50,8 +52,8 @@ entry
 
 # License
 
-Application is distributed under the terms of the MIT License
-See the [LICENSE](/LICENSE) for more information.
+This project is distributed under the terms of the **MIT License**.
+See the [LICENSE](LICENSE) for more information.
 
 
 

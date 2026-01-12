@@ -15,8 +15,12 @@ function angleBetween(p0: XY, p1: XY, p2: XY): number {
   const start = Math.atan2(sY, sX)
   const end = Math.atan2(eY, eX)
   let deg = atanToDegrees(end - start)
-  if (deg > 180) deg -= 360
-  if (deg <= -180) deg += 360
+  if (deg > 180) {
+    deg -= 360
+  }
+  if (deg <= -180) {
+    deg += 360
+  }
   return deg
 }
 
@@ -66,7 +70,9 @@ struct VerificationDial {
           .strokeWidth(3)
           .fillOpacity(0)
           .onTouch((ev: TouchEvent) => {
-            if (this.verified) return
+            if (this.verified) {
+              return
+            }
 
             if (ev.type === TouchType.Down) {
               this.startRotates = this.rotateAngle
